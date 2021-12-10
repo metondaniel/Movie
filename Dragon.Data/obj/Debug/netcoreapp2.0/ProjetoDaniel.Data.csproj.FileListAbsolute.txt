@@ -1,0 +1,16 @@
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDaniel.Data\bin\Debug\netcoreapp2.0\ProjetoDaniel.Data.deps.json
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDaniel.Data\bin\Debug\netcoreapp2.0\ProjetoDaniel.Data.runtimeconfig.json
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDaniel.Data\bin\Debug\netcoreapp2.0\ProjetoDaniel.Data.runtimeconfig.dev.json
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDaniel.Data\bin\Debug\netcoreapp2.0\ProjetoDaniel.Data.dll
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDaniel.Data\bin\Debug\netcoreapp2.0\ProjetoDaniel.Data.pdb
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDaniel.Data\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Hosting.dll
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDaniel.Data\bin\Debug\netcoreapp2.0\ProjetoDaniel.Domain.dll
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDaniel.Data\bin\Debug\netcoreapp2.0\ProjetoDaniel.Domain.pdb
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDaniel.Data\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Hosting.xml
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDaniel.Data\obj\Debug\netcoreapp2.0\ProjetoDaniel.Data.csprojResolveAssemblyReference.cache
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDaniel.Data\obj\Debug\netcoreapp2.0\ProjetoDaniel.Data.csproj.CoreCompileInputs.cache
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDaniel.Data\obj\Debug\netcoreapp2.0\ProjetoDaniel.Data.AssemblyInfoInputs.cache
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDaniel.Data\obj\Debug\netcoreapp2.0\ProjetoDaniel.Data.AssemblyInfo.cs
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDaniel.Data\obj\Debug\netcoreapp2.0\ProjetoDaniel.Data.csproj.CopyComplete
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDaniel.Data\obj\Debug\netcoreapp2.0\ProjetoDaniel.Data.dll
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDaniel.Data\obj\Debug\netcoreapp2.0\ProjetoDaniel.Data.pdb

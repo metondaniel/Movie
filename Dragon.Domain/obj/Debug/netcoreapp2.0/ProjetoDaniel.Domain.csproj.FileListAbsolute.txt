@@ -1,0 +1,9 @@
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDaniel.Domain\bin\Debug\netcoreapp2.0\ProjetoDaniel.Domain.deps.json
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDaniel.Domain\bin\Debug\netcoreapp2.0\ProjetoDaniel.Domain.dll
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDaniel.Domain\bin\Debug\netcoreapp2.0\ProjetoDaniel.Domain.pdb
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDaniel.Domain\obj\Debug\netcoreapp2.0\ProjetoDaniel.Domain.csprojResolveAssemblyReference.cache
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDaniel.Domain\obj\Debug\netcoreapp2.0\ProjetoDaniel.Domain.csproj.CoreCompileInputs.cache
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDaniel.Domain\obj\Debug\netcoreapp2.0\ProjetoDaniel.Domain.AssemblyInfoInputs.cache
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDaniel.Domain\obj\Debug\netcoreapp2.0\ProjetoDaniel.Domain.AssemblyInfo.cs
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDaniel.Domain\obj\Debug\netcoreapp2.0\ProjetoDaniel.Domain.dll
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDaniel.Domain\obj\Debug\netcoreapp2.0\ProjetoDaniel.Domain.pdb

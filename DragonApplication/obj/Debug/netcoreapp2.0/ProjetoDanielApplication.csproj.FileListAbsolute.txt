@@ -1,0 +1,14 @@
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDanielApplication\bin\Debug\netcoreapp2.0\ProjetoDanielApplication.deps.json
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDanielApplication\bin\Debug\netcoreapp2.0\ProjetoDanielApplication.dll
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDanielApplication\bin\Debug\netcoreapp2.0\ProjetoDanielApplication.pdb
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDanielApplication\bin\Debug\netcoreapp2.0\ProjetoDaniel.Domain.dll
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDanielApplication\bin\Debug\netcoreapp2.0\ProjetoDaniel.Dto.dll
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDanielApplication\bin\Debug\netcoreapp2.0\ProjetoDaniel.Domain.pdb
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDanielApplication\bin\Debug\netcoreapp2.0\ProjetoDaniel.Dto.pdb
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDanielApplication\obj\Debug\netcoreapp2.0\ProjetoDanielApplication.csprojResolveAssemblyReference.cache
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDanielApplication\obj\Debug\netcoreapp2.0\ProjetoDanielApplication.csproj.CoreCompileInputs.cache
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDanielApplication\obj\Debug\netcoreapp2.0\ProjetoDanielApplication.AssemblyInfoInputs.cache
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDanielApplication\obj\Debug\netcoreapp2.0\ProjetoDanielApplication.AssemblyInfo.cs
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDanielApplication\obj\Debug\netcoreapp2.0\ProjetoDanielApplication.csproj.CopyComplete
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDanielApplication\obj\Debug\netcoreapp2.0\ProjetoDanielApplication.dll
+C:\Users\dmeton01\source\repos\ProjetoDaniel\ProjetoDanielApplication\obj\Debug\netcoreapp2.0\ProjetoDanielApplication.pdb
