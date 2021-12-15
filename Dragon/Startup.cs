@@ -53,7 +53,7 @@ namespace Dragon
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
         {
-            options.LoginPath = "/api/Movie/validate";
+            options.LoginPath = "/api/Auth/validate";
             options.AccessDeniedPath = new Microsoft.AspNetCore.Http.PathString("/auth/denied");
             options.ReturnUrlParameter = "";
         });

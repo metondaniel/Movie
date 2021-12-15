@@ -22,7 +22,6 @@ namespace Dragon.Controllers
         {
             _appService = movieAppService;
         }
-        [Authorize]
         // GET api/values
         [HttpGet]
         public IActionResult Get([FromBody] MovieDto movieDto)
@@ -59,24 +58,6 @@ namespace Dragon.Controllers
             _appService.DeleteMovie(id);
             return Ok();
         }
-        [AllowAnonymous]
-        [Route("validate")]
-        [HttpGet]
-        public ActionResult Validate()
-        {
-            using (HttpClient client = new HttpClient())
-            {
-                var content = new FormUrlEncodedContent(new[]
-            {
-                new KeyValuePair<string, string>("token", Request.Headers["token"])
-            });
-                var result = client.PostAsync("https://localhost:44387/authentication/validate", content).Result;
-                if (result.IsSuccessStatusCode)
-                    return Ok();
-                else
-                    return Unauthorized();
-            }
-            
-        }
+        
     }
 }
