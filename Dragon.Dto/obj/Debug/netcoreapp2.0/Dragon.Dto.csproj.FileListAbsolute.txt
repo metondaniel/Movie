@@ -17,3 +17,4 @@ C:\Users\danie\Documents\Project\Movie\Dragon.Dto\obj\Debug\netcoreapp2.0\Dragon
 C:\Users\danie\Documents\Project\Movie\Dragon.Dto\obj\Debug\netcoreapp2.0\Dragon.Dto.csproj.CoreCompileInputs.cache
 C:\Users\danie\Documents\Project\Movie\Dragon.Dto\obj\Debug\netcoreapp2.0\Dragon.Dto.dll
 C:\Users\danie\Documents\Project\Movie\Dragon.Dto\obj\Debug\netcoreapp2.0\Dragon.Dto.pdb
+C:\Users\danie\Documents\Project\Movie\Dragon.Dto\obj\Debug\netcoreapp2.0\Dragon.Dto.csproj.AssemblyReference.cache

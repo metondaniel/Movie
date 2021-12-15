@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
-using ProjetoDanielWebApi.Mappings.Profiles;
+using DragonWebApi.Mappings.Profiles;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ProjetoDanielWebApi.Mappings
+namespace DragonWebApi.Mappings
 {
     public class AutoMapperConfiguration
     {

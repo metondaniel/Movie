@@ -1,14 +1,14 @@
 ﻿using AutoMapper;
-using ProjetoDaniel.Domain.Interfaces.Services;
-using ProjetoDaniel.Dto;
-using ProjetoDaniel.Model;
-using ProjetoDanielApplication.Interfaces;
-using ProjetoDaniel.Domain.Builder;
+using Dragon.Domain.Interfaces.Services;
+using Dragon.Dto;
+using Dragon.Model;
+using DragonApplication.Interfaces;
+using Dragon.Domain.Builder;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ProjetoDanielApplication.Services
+namespace DragonApplication.Services
 {
     public class ScheduleAppService : IScheduleAppService
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ProjetoDaniel.Domain.Interfaces.Services
+namespace Dragon.Domain.Interfaces.Services
 {
     public interface IServiceBase<TEntity> where TEntity: class
     {

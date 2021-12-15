@@ -32,7 +32,8 @@
           "Dragon.Dto": "1.0.0",
           "DragonApplication": "1.0.0",
           "Microsoft.AspNetCore.All": "2.0.6",
-          "Microsoft.NETCore.App": "2.0.0"
+          "Microsoft.NETCore.App": "2.0.0",
+          "Microsoft.Owin.Security.OAuth": "4.2.0"
         },
         "runtime": {
           "DragonWebApi.dll": {}
@@ -2758,6 +2759,52 @@
         }
       },
       "Microsoft.NETCore.Targets/1.1.0": {},
+      "Microsoft.Owin/4.2.0": {
+        "dependencies": {
+          "Owin": "1.0.0"
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.34971.142"
+          }
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        }
+      },
+      "Microsoft.Owin.Security/4.2.0": {
+        "dependencies": {
+          "Microsoft.Owin": "4.2.0",
+          "Owin": "1.0.0"
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Security.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.34971.142"
+          }
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Security.dll": {}
+        }
+      },
+      "Microsoft.Owin.Security.OAuth/4.2.0": {
+        "dependencies": {
+          "Microsoft.Owin": "4.2.0",
+          "Microsoft.Owin.Security": "4.2.0",
+          "Newtonsoft.Json": "10.0.1",
+          "Owin": "1.0.0"
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Security.OAuth.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.34971.142"
+          }
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Security.OAuth.dll": {}
+        }
+      },
       "Microsoft.Rest.ClientRuntime/2.3.8": {
         "dependencies": {
           "NETStandard.Library": "2.0.0",
@@ -2895,6 +2942,17 @@
         },
         "compile": {
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
+        }
+      },
+      "Owin/1.0.0": {
+        "runtime": {
+          "lib/net40/Owin.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/net40/Owin.dll": {}
         }
       },
       "Remotion.Linq/2.2.0": {
@@ -5582,6 +5640,27 @@
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
     },
+    "Microsoft.Owin/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NPPwhK+oSf6JWAy6m2Dq7xYIVnEvUTeMM1mVaOobkiVsOaHPAu8E05/fKAjrDBBDCC14z32jwnZyPs3z9UNV5w==",
+      "path": "microsoft.owin/4.2.0",
+      "hashPath": "microsoft.owin.4.2.0.nupkg.sha512"
+    },
+    "Microsoft.Owin.Security/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-w/cWWNkc4sBRYHmY49VSfgKGEXVbBNecnrLR6sHf/shkRpFvitduo6dGUy/CwL3bQEFPEbuyQeXmMVVXQj3R4Q==",
+      "path": "microsoft.owin.security/4.2.0",
+      "hashPath": "microsoft.owin.security.4.2.0.nupkg.sha512"
+    },
+    "Microsoft.Owin.Security.OAuth/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aMHGnSrCqFyS3a5mwiTx0isrxXoYvi3Xt4KDjj00zswFhb9EmjfJL6EmP6WuopefixdMpNQGJ5XQjT+qtBd5lA==",
+      "path": "microsoft.owin.security.oauth/4.2.0",
+      "hashPath": "microsoft.owin.security.oauth.4.2.0.nupkg.sha512"
+    },
     "Microsoft.Rest.ClientRuntime/2.3.8": {
       "type": "package",
       "serviceable": true,
@@ -5630,6 +5709,13 @@
       "sha512": "sha512-5PYT/IqQ+UK31AmZiSS102R6EsTo+LGTSI8bp7WAUqDKaF4wHXD8U9u4WxTI1vc64tYi++8p3dk3WWNqPFgldw==",
       "path": "newtonsoft.json.bson/1.0.1",
       "hashPath": "newtonsoft.json.bson.1.0.1.nupkg.sha512"
+    },
+    "Owin/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OseTFniKmyp76mEzOBwIKGBRS5eMoYNkMKaMXOpxx9jv88+b6mh1rSaw43vjBOItNhaLFG3d0a20PfHyibH5sw==",
+      "path": "owin/1.0.0",
+      "hashPath": "owin.1.0.0.nupkg.sha512"
     },
     "Remotion.Linq/2.2.0": {
       "type": "package",

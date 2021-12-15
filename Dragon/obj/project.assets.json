@@ -2636,6 +2636,46 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "Microsoft.Owin/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.dll": {}
+        }
+      },
+      "Microsoft.Owin.Security/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.2.0",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Security.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Security.dll": {}
+        }
+      },
+      "Microsoft.Owin.Security.OAuth/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.2.0",
+          "Microsoft.Owin.Security": "4.2.0",
+          "Newtonsoft.Json": "10.0.1",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Security.OAuth.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Security.OAuth.dll": {}
+        }
+      },
       "Microsoft.Rest.ClientRuntime/2.3.8": {
         "type": "package",
         "dependencies": {
@@ -2776,6 +2816,15 @@
         },
         "runtime": {
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
+        }
+      },
+      "Owin/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Owin.dll": {}
         }
       },
       "Remotion.Linq/2.2.0": {
@@ -7484,6 +7533,45 @@
         "runtime.json"
       ]
     },
+    "Microsoft.Owin/4.2.0": {
+      "sha512": "NPPwhK+oSf6JWAy6m2Dq7xYIVnEvUTeMM1mVaOobkiVsOaHPAu8E05/fKAjrDBBDCC14z32jwnZyPs3z9UNV5w==",
+      "type": "package",
+      "path": "microsoft.owin/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.Owin.XML",
+        "lib/net45/Microsoft.Owin.dll",
+        "microsoft.owin.4.2.0.nupkg.sha512",
+        "microsoft.owin.nuspec"
+      ]
+    },
+    "Microsoft.Owin.Security/4.2.0": {
+      "sha512": "w/cWWNkc4sBRYHmY49VSfgKGEXVbBNecnrLR6sHf/shkRpFvitduo6dGUy/CwL3bQEFPEbuyQeXmMVVXQj3R4Q==",
+      "type": "package",
+      "path": "microsoft.owin.security/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.Owin.Security.XML",
+        "lib/net45/Microsoft.Owin.Security.dll",
+        "microsoft.owin.security.4.2.0.nupkg.sha512",
+        "microsoft.owin.security.nuspec"
+      ]
+    },
+    "Microsoft.Owin.Security.OAuth/4.2.0": {
+      "sha512": "aMHGnSrCqFyS3a5mwiTx0isrxXoYvi3Xt4KDjj00zswFhb9EmjfJL6EmP6WuopefixdMpNQGJ5XQjT+qtBd5lA==",
+      "type": "package",
+      "path": "microsoft.owin.security.oauth/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.Owin.Security.OAuth.XML",
+        "lib/net45/Microsoft.Owin.Security.OAuth.dll",
+        "microsoft.owin.security.oauth.4.2.0.nupkg.sha512",
+        "microsoft.owin.security.oauth.nuspec"
+      ]
+    },
     "Microsoft.Rest.ClientRuntime/2.3.8": {
       "sha512": "Hj96LBoCwKY2VQKfSCVGGPV1sSumVjuYnrlpBwL4JSTnSK4b6ZxjLtXj8LgmKav8xJ2gps+UN7eI3hHVFKvBFw==",
       "type": "package",
@@ -7764,6 +7852,18 @@
         "lib/netstandard1.3/Newtonsoft.Json.Bson.xml",
         "newtonsoft.json.bson.1.0.1.nupkg.sha512",
         "newtonsoft.json.bson.nuspec"
+      ]
+    },
+    "Owin/1.0.0": {
+      "sha512": "OseTFniKmyp76mEzOBwIKGBRS5eMoYNkMKaMXOpxx9jv88+b6mh1rSaw43vjBOItNhaLFG3d0a20PfHyibH5sw==",
+      "type": "package",
+      "path": "owin/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Owin.dll",
+        "owin.1.0.0.nupkg.sha512",
+        "owin.nuspec"
       ]
     },
     "Remotion.Linq/2.2.0": {
@@ -12819,7 +12919,8 @@
       "Dragon.Dto >= 1.0.0",
       "DragonApplication >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.0.6",
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Microsoft.NETCore.App >= 2.0.0",
+      "Microsoft.Owin.Security.OAuth >= 4.2.0"
     ]
   },
   "packageFolders": {
@@ -12895,6 +12996,10 @@
             "target": "Package",
             "version": "[2.0.0, )",
             "autoReferenced": true
+          },
+          "Microsoft.Owin.Security.OAuth": {
+            "target": "Package",
+            "version": "[4.2.0, )"
           }
         },
         "imports": [
@@ -12910,5 +13015,47 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Microsoft.Owin 4.2.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v2.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Microsoft.Owin",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Microsoft.Owin.Security 4.2.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v2.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Microsoft.Owin.Security",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Microsoft.Owin.Security.OAuth 4.2.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v2.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Microsoft.Owin.Security.OAuth",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Owin 1.0.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v2.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Owin",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    }
+  ]
 }

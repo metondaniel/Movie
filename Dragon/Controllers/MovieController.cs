@@ -4,11 +4,14 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
-using ProjetoDaniel.Dto;
-using ProjetoDanielApplication.Interfaces;
+using Dragon.Dto;
+using DragonApplication.Interfaces;
+using Microsoft.AspNetCore.Authorization;
+using System.Net.Http;
 
-namespace ProjetoDaniel.Controllers
+namespace Dragon.Controllers
 {
+
     [Produces("application/json")]
     [Route("api/Movie/")]
     [EnableCors("any")]
@@ -19,30 +22,31 @@ namespace ProjetoDaniel.Controllers
         {
             _appService = movieAppService;
         }
+        [Authorize]
         // GET api/values
         [HttpGet]
-        public IActionResult Get([FromBody]MovieDto movieDto)
+        public IActionResult Get([FromBody] MovieDto movieDto)
         {
             return Ok(_appService.GetMovie(movieDto));
         }
-
+        [Authorize]
         // GET api/values/5
         [HttpGet("{id}")]
         public ActionResult Get(Guid id)
         {
             return Ok(_appService.GetMovieById(id));
         }
-
+        [Authorize]
         // POST api/values
         [HttpPost]
-        public ActionResult Post([FromBody]MovieDto movieDto)
+        public ActionResult Post([FromBody] MovieDto movieDto)
         {
             return Ok(_appService.SaveMovie(movieDto));
         }
 
         // PUT api/values/5
         [HttpPut]
-        public ActionResult Put([FromBody]MovieDto movieDto)
+        public ActionResult Put([FromBody] MovieDto movieDto)
         {
             _appService.UpdateMovie(movieDto);
             return Ok();
@@ -54,6 +58,25 @@ namespace ProjetoDaniel.Controllers
         {
             _appService.DeleteMovie(id);
             return Ok();
+        }
+        [AllowAnonymous]
+        [Route("validate")]
+        [HttpGet]
+        public ActionResult Validate()
+        {
+            using (HttpClient client = new HttpClient())
+            {
+                var content = new FormUrlEncodedContent(new[]
+            {
+                new KeyValuePair<string, string>("token", Request.Headers["token"])
+            });
+                var result = client.PostAsync("https://localhost:44387/authentication/validate", content).Result;
+                if (result.IsSuccessStatusCode)
+                    return Ok();
+                else
+                    return Unauthorized();
+            }
+            
         }
     }
 }

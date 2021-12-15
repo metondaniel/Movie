@@ -1,12 +1,12 @@
 ﻿using AutoMapper;
-using ProjetoDaniel.Dto;
-using ProjetoDaniel.Model;
+using Dragon.Dto;
+using Dragon.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ProjetoDanielWebApi.Mappings.Profiles
+namespace DragonWebApi.Mappings.Profiles
 {
     public class MovieProfile : Profile
     {

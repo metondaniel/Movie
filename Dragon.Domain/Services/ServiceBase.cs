@@ -1,10 +1,10 @@
-﻿using ProjetoDaniel.Domain.Interfaces.Repositories;
-using ProjetoDaniel.Domain.Interfaces.Services;
+﻿using Dragon.Domain.Interfaces.Repositories;
+using Dragon.Domain.Interfaces.Services;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ProjetoDaniel.Domain.Services
+namespace Dragon.Domain.Services
 {
     public class ServiceBase<TEntity> : IDisposable, IServiceBase<TEntity> where TEntity : class
     {

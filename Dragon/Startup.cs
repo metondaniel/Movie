@@ -12,17 +12,23 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Microsoft.Owin.Security.OAuth;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
-using ProjetoDaniel.Data.Context;
-using ProjetoDaniel.Data.Repository;
-using ProjetoDaniel.Domain.Interfaces.Repositories;
-using ProjetoDaniel.Domain.Interfaces.Services;
-using ProjetoDaniel.Domain.Services;
-using ProjetoDanielApplication.Interfaces;
-using ProjetoDanielApplication.Services;
+using Dragon.Data.Context;
+using Dragon.Data.Repository;
+using Dragon.Domain.Interfaces.Repositories;
+using Dragon.Domain.Interfaces.Services;
+using Dragon.Domain.Services;
+using DragonApplication.Interfaces;
+using DragonApplication.Services;
+using Microsoft.Owin;
+using Microsoft.AspNetCore.Authentication.OAuth;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
-namespace ProjetoDaniel
+[assembly: OwinStartup(typeof(Dragon.Startup))]
+namespace Dragon
 {
     public class Startup
     {
@@ -44,6 +50,13 @@ namespace ProjetoDaniel
             services.AddScoped<IScheduleAppService, ScheduleAppService>();
             services.AddScoped<IMovieService, MovieService>();
             services.AddScoped<IScheduleService, ScheduleService>();
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+        {
+            options.LoginPath = "/api/Movie/validate";
+            options.AccessDeniedPath = new Microsoft.AspNetCore.Http.PathString("/auth/denied");
+            options.ReturnUrlParameter = "";
+        });
 
             services.AddMvc().AddJsonOptions(options =>
             {
@@ -74,5 +87,6 @@ namespace ProjetoDaniel
             app.UseCors("AllowAll");
             app.UseMvc();
         }
+
     }
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ProjetoDaniel.Domain.Interfaces.Repositories
+namespace Dragon.Domain.Interfaces.Repositories
 {
     public interface IRepositoryBase<TEntity> where TEntity : class
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ProjetoDaniel.Dto
+namespace Dragon.Dto
 {
     public class ScheduleDto
     {

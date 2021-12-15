@@ -1,12 +1,12 @@
-﻿using ProjetoDaniel.Data.Context;
-using ProjetoDaniel.Domain.Interfaces.Repositories;
-using ProjetoDaniel.Model;
+﻿using Dragon.Data.Context;
+using Dragon.Domain.Interfaces.Repositories;
+using Dragon.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ProjetoDaniel.Data.Repository
+namespace Dragon.Data.Repository
 {
     public class MovieRepository : RepositoryBase<Movie>, IMovieRepository
     {

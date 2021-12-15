@@ -1,13 +1,13 @@
 ﻿using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
-using ProjetoDaniel.Dto;
-using ProjetoDanielApplication.Interfaces;
+using Dragon.Dto;
+using DragonApplication.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ProjetoDanielWebApi.Controllers
+namespace DragonWebApi.Controllers
 {
     [Produces("application/json")]
     [Route("api/Schedule/")]

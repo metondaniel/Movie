@@ -1,9 +1,9 @@
-﻿using ProjetoDaniel.Model;
+﻿using Dragon.Model;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ProjetoDaniel.Domain.Builder
+namespace Dragon.Domain.Builder
 {
     public class MovieBuilder
     {

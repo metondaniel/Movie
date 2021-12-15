@@ -1,11 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ProjetoDaniel.Domain.Interfaces.Repositories;
+using Dragon.Domain.Interfaces.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using ProjetoDaniel.Data.Context;
+using Dragon.Data.Context;
 
-namespace ProjetoDaniel.Data.Repository
+namespace Dragon.Data.Repository
 {
     public class RepositoryBase<TEntity> : IRepositoryBase<TEntity> where TEntity : class
     {

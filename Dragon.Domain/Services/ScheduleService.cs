@@ -1,11 +1,11 @@
-﻿using ProjetoDaniel.Domain.Interfaces.Repositories;
-using ProjetoDaniel.Domain.Interfaces.Services;
-using ProjetoDaniel.Model;
+﻿using Dragon.Domain.Interfaces.Repositories;
+using Dragon.Domain.Interfaces.Services;
+using Dragon.Model;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ProjetoDaniel.Domain.Services
+namespace Dragon.Domain.Services
 {
     public class ScheduleService : ServiceBase<Schedule>, IScheduleService
     {

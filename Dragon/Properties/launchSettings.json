@@ -16,7 +16,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "ProjetoDaniel": {
+    "Dragon": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "api/Schedule",

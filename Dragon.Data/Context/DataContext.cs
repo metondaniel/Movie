@@ -1,10 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ProjetoDaniel.Model;
+using Dragon.Model;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ProjetoDaniel.Data.Context
+namespace Dragon.Data.Context
 {
     public class DataContext : DbContext
     {

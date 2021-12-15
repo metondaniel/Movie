@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ProjetoDaniel.Dto
+namespace Dragon.Dto
 {
     public class MovieDto
     {
