@@ -23,7 +23,7 @@ namespace DragonWebApi.Controllers
             {
                 var content = new FormUrlEncodedContent(new[]
             {
-                new KeyValuePair<string, string>("token", Request.Headers["token"])
+                new KeyValuePair<string, string>("token", Request.Headers["Authorization"][0].Replace("Bearer ",""))
             });
                 var result = client.PostAsync("https://localhost:44387/authentication/validate", content).Result;
                 if (result.IsSuccessStatusCode)

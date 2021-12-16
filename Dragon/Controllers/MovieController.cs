@@ -35,7 +35,6 @@ namespace Dragon.Controllers
         {
             return Ok(_appService.GetMovieById(id));
         }
-        [Authorize]
         // POST api/values
         [HttpPost]
         public ActionResult Post([FromBody] MovieDto movieDto)

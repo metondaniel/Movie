@@ -11,10 +11,10 @@ C:\Users\danie\Documents\projetoFront\ProjetBackEnd\Dragon.Domain\obj\Debug\netc
 C:\Users\danie\Documents\Project\Movie\Dragon.Domain\bin\Debug\netcoreapp2.0\Dragon.Domain.deps.json
 C:\Users\danie\Documents\Project\Movie\Dragon.Domain\bin\Debug\netcoreapp2.0\Dragon.Domain.dll
 C:\Users\danie\Documents\Project\Movie\Dragon.Domain\bin\Debug\netcoreapp2.0\Dragon.Domain.pdb
+C:\Users\danie\Documents\Project\Movie\Dragon.Domain\obj\Debug\netcoreapp2.0\Dragon.Domain.csproj.AssemblyReference.cache
 C:\Users\danie\Documents\Project\Movie\Dragon.Domain\obj\Debug\netcoreapp2.0\Dragon.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\danie\Documents\Project\Movie\Dragon.Domain\obj\Debug\netcoreapp2.0\Dragon.Domain.AssemblyInfoInputs.cache
 C:\Users\danie\Documents\Project\Movie\Dragon.Domain\obj\Debug\netcoreapp2.0\Dragon.Domain.AssemblyInfo.cs
 C:\Users\danie\Documents\Project\Movie\Dragon.Domain\obj\Debug\netcoreapp2.0\Dragon.Domain.csproj.CoreCompileInputs.cache
 C:\Users\danie\Documents\Project\Movie\Dragon.Domain\obj\Debug\netcoreapp2.0\Dragon.Domain.dll
 C:\Users\danie\Documents\Project\Movie\Dragon.Domain\obj\Debug\netcoreapp2.0\Dragon.Domain.pdb
-C:\Users\danie\Documents\Project\Movie\Dragon.Domain\obj\Debug\netcoreapp2.0\Dragon.Domain.csproj.AssemblyReference.cache
