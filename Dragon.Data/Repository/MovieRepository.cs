@@ -1,10 +1,10 @@
 ﻿using Dragon.Data.Context;
 using Dragon.Domain.Interfaces.Repositories;
 using Dragon.Model;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace Dragon.Data.Repository
 {
@@ -22,9 +22,9 @@ namespace Dragon.Data.Repository
             return movie;
         }
 
-        public List<Movie> GetByParam(string description,string category)
+        public List<Movie> GetByParam(string description, string category)
         {
-            var movie = Db.Set<Movie>().Where(x => !string.IsNullOrEmpty(description) ? x.Description  == description: true && !string.IsNullOrEmpty(category) ? x.Category == category : true);
+            var movie = context.Movies.Include(x=>x.ScheduleTime);
             return movie.ToList();
         }
     }

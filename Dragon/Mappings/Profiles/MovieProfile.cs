@@ -13,7 +13,7 @@ namespace DragonWebApi.Mappings.Profiles
         public MovieProfile()
         {
             CreateMap<MovieDto, Movie>();
-            CreateMap<Movie, MovieDto>();
+            CreateMap<Movie, MovieDto>().ForMember(x=>x.Schedule,y=>y.MapFrom(src => src.ScheduleTime.ScheduleTime.ToShortDateString()));
         }
     }
 }

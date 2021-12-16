@@ -14,6 +14,6 @@ namespace Dragon.Dto
 
         public string Category { get; set; }
 
-        public ScheduleDto ScheduleDto { get; set; }
+        public string Schedule { get; set; }
     }
 }

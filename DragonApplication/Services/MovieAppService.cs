@@ -41,7 +41,7 @@ namespace DragonApplication.Services
             var movieBuilder = new MovieBuilder()
                 .WithDescription(dtoRequest.Description)
                 .WithCategory(dtoRequest.Category)
-                .WithSchedule(_mapper.Map<Schedule>(dtoRequest.ScheduleDto));
+                .WithSchedule(_mapper.Map<Schedule>(new Schedule() { ScheduleTime = Convert.ToDateTime(dtoRequest.Schedule) }));
             return _mapper.Map<MovieDto>(_service.Add(movieBuilder.Instance));
         }
 
@@ -50,7 +50,7 @@ namespace DragonApplication.Services
             var movieBuilder = new MovieBuilder()
                 .WithDescription(dtoRequest.Description)
                 .WithCategory(dtoRequest.Category)
-                .WithSchedule(_mapper.Map<Schedule>(dtoRequest.ScheduleDto));
+                .WithSchedule(_mapper.Map<Schedule>(new Schedule() { ScheduleTime = Convert.ToDateTime(dtoRequest.Schedule) }));
             _service.Update(movieBuilder.Instance);
         }
     }

@@ -24,9 +24,9 @@ namespace Dragon.Controllers
         }
         // GET api/values
         [HttpGet]
-        public IActionResult Get([FromBody] MovieDto movieDto)
+        public IActionResult Get()
         {
-            return Ok(_appService.GetMovie(movieDto));
+            return Ok(_appService.GetMovie(null));
         }
         [Authorize]
         // GET api/values/5
